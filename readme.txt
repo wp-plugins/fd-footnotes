@@ -20,7 +20,6 @@ square brackets like this:
 
      [1. This is a footnote.]
 
-
 Each footnote must have a number followed by a period and a space and then the
 actual footnote. They don’t have to be unique but it is recommended. It doesn’t
 matter what the numbers are since the footnotes will be automatically
