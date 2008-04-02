@@ -1,7 +1,7 @@
 === FD Footnotes Plugin ===
 Contributors: fd
 Donate link: http://flagrantdisregard.com/footnotes-plugin/
-Tags: posts, writing, editing, footnotes, formatting
+Tags: posts, writing, editing, footnotes, endnotes, formatting
 Requires at least: 2.0
 Tested up to: 2.5
 Stable tag: trunk
