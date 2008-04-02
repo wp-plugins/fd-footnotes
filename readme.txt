@@ -21,9 +21,10 @@ square brackets like this:
      [1. This is a footnote.]
 
 
-Each footnote must have a number followed by a period. They don’t have to be
-unique but it is recommended. It doesn’t matter what the numbers are since the
-footnotes will be automatically renumbered when the post is displayed.
+Each footnote must have a number followed by a period and a space and then the
+actual footnote. They don’t have to be unique but it is recommended. It doesn’t
+matter what the numbers are since the footnotes will be automatically
+renumbered when the post is displayed.
 
 Footnotes can contain anything you’d like including links, images, etc.
 Footnotes are automatically linked back to the spot in the text where the note
