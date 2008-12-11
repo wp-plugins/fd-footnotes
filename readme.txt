@@ -3,7 +3,7 @@ Contributors: fd
 Donate link: http://flagrantdisregard.com/footnotes-plugin/
 Tags: posts, writing, editing, footnotes, endnotes, formatting
 Requires at least: 2.0
-Tested up to: 2.6.2
+Tested up to: 2.7
 Stable tag: trunk
 
 Add elegant looking footnotes to your posts simply and naturally.
