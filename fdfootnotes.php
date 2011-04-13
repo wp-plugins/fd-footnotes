@@ -4,7 +4,7 @@ Plugin Name: FD Footnotes
 Plugin URI: http://flagrantdisregard.com/footnotes-plugin
 Description: Elegant and easy to use footnotes
 Author: John Watson
-Version: 1.2
+Version: 1.21
 Author URI: http://flagrantdisregard.com
 
 Copyright (C) 2008 John Watson
@@ -40,6 +40,12 @@ function fdfootnote_convert($content) {
 			$content = str_replace($fn, "<sup class='footnote'><a href='#fn-$post_id-$n' id='fnref-$post_id-$n'>$n</a></sup>", $content);
 			$n++;
 		}
+
+		// *****************************************************************************************************
+		// Workaround for wpautop() bug. Otherwise it sometimes inserts an opening <p> but not the closing </p>.
+		// There are a bunch of open wpautop tickets. See 4298 and 7988 in particular.
+		$content .= "\n\n";
+		// *****************************************************************************************************
 
 		$content .= "<div class='footnotes'>";
 		$content .= "<div class='footnotedivider'></div>";

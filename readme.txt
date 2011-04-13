@@ -47,5 +47,7 @@ and incorrect footnotes on your post.
 
 == Changelog ==
 
-= 1.2 =
-* This is a placeholder for the next release.
+= 1.21 =
+* Fixed problem where sometimes WordPress would not correctly add the closing
+  paragraph tag in posts with footnotes. This is a stable workaround for a
+  wpautop() bug in WordPress. Thanks to Roger Chen for the tip.
