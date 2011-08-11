@@ -61,7 +61,7 @@ and incorrect footnotes on your post.
   expanded.
 * Added option to only show footnotes when viewing a single post/page.
 * Added translation files. Send .po translation files to me for inclusion
-  in future releasse. Thanks.
+  in future releases. Thanks.
 
 = 1.21 =
 * Fixed problem where sometimes WordPress would not correctly add the closing
