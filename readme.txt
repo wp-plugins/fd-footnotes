@@ -29,6 +29,15 @@ Footnotes can contain anything you’d like including links, images, etc.
 Footnotes are automatically linked back to the spot in the text where the note
 was made.
 
+= Settings =
+
+**Only show footnotes on single post/page:** This option will hide
+footnotes on the main blog page. Footnote numbers will still appear
+but link to the individual post/page URL.
+
+**Collapse footnotes until clicked:** When checked, footnotes are
+hidden until manually expanded or a footnote number is clicked.
+
 *Note:* Do not include square brackets [] inside the footnotes themselves.
 
 *Note:* Footnote numbers don't need to be unique but it is recommended,
