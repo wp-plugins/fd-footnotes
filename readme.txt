@@ -3,7 +3,7 @@ Contributors: fd
 Donate link: http://flagrantdisregard.com/footnotes-plugin/
 Tags: posts, writing, editing, footnotes, endnotes, formatting
 Requires at least: 2.0
-Tested up to: 3.1.1
+Tested up to: 3.2.1
 Stable tag: trunk
 
 Add elegant looking footnotes to your posts simply and naturally.
@@ -31,14 +31,14 @@ was made.
 
 *Note:* Do not include square brackets [] inside the footnotes themselves.
 
-*Note:* Footnote numbers don’t need to be unique but it is recommended,
+*Note:* Footnote numbers don't need to be unique but it is recommended,
 especially if the text is identical for multiple footnotes. If you have
 multiple footnotes with the exact same text and number then you’ll get weird
 and incorrect footnotes on your post.
 
 == Installation ==
 
-1. Copy fdfootnotes.php into wp-content/plugins
+1. Copy the fd-footnotes directory into wp-content/plugins
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Screenshots ==
@@ -46,6 +46,13 @@ and incorrect footnotes on your post.
 1. Sample of post and resulting display on blog.
 
 == Changelog ==
+
+= 1.3 =
+* Added option for collapsing footnotes into a single line until manually
+  expanded.
+* Added option to only show footnotes when viewing a single post/page.
+* Added translation files. Send .po translation files to me for inclusion
+  in future releasse. Thanks.
 
 = 1.21 =
 * Fixed problem where sometimes WordPress would not correctly add the closing
