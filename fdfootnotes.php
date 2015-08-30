@@ -120,6 +120,8 @@ function fdfootnote_convert($content) {
 
 	$n = 1;
 	$notes = array();
+	$singleurl = '';
+
 	if (preg_match_all('/\[(\d+\..*?)\]/s', $content, $matches)) {
 		foreach($matches[0] as $fn) {
 			$note = preg_replace('/\[\d+\.(.*?)\]/s', '\1', $fn);
