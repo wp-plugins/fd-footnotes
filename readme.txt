@@ -56,6 +56,9 @@ and incorrect footnotes on your post.
 
 == Changelog ==
 
+= 1.34 =
+* Fixed jQuery script dependency
+
 = 1.33 =
 * Added Greek translation by Dimitrios Kaisaris (http://www.foodblogstarter.com)
 
