@@ -124,6 +124,7 @@ function fdfootnote_convert($content) {
 		foreach($matches[0] as $fn) {
 			$note = preg_replace('/\[\d+\.(.*?)\]/s', '\1', $fn);
 			$notes[$n] = $note;
+			$singleurl = '';
 
 			if ($linksingle) $singleurl = get_permalink();
 			
