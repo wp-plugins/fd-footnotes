@@ -59,19 +59,17 @@ function fdfootnote_conf() {
 	if (!isset($options['fdfootnote_collapse'])) $options['fdfootnote_collapse'] = 0;
 	
 	$updated = false;
+	$options['fdfootnote_collapse'] = 0;
+	$options['fdfootnote_single'] = 0;
 	if ( isset($_POST['submit']) ) {
 		check_admin_referer('fdfootnote', 'fdfootnote-admin');
 		
 		if (isset($_POST['fdfootnote_collapse'])) {
 			$options['fdfootnote_collapse'] = 1;
-		} else {
-			$options['fdfootnote_collapse'] = 0;
 		}
 
 		if (isset($_POST['fdfootnote_single'])) {
 			$options['fdfootnote_single'] = 1;
-		} else {
-			$options['fdfootnote_single'] = 0;
 		}
 
 		update_option('fdfootnote', $options);
@@ -124,6 +122,7 @@ function fdfootnote_convert($content) {
 		foreach($matches[0] as $fn) {
 			$note = preg_replace('/\[\d+\.(.*?)\]/s', '\1', $fn);
 			$notes[$n] = $note;
+			$singleurl = '';
 
 			if ($linksingle) $singleurl = get_permalink();
 			
